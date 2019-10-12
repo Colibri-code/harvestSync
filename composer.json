@@ -1,0 +1,23 @@
+{
+    "name": "vipomx/harvest-sync",
+    "description": "Manage and sync time entries between harvest accounts.",
+    "type": "library",
+    "require": {
+        "php": ">=7.1",
+        "curl/curl": "^2.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "vipomx\\harvestSync\\": "src/"
+        }
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Victor Polanco",
+            "email": "vpolancop@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
